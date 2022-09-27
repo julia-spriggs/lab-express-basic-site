@@ -1,3 +1,25 @@
 body {
     background-color: rgb(194, 157, 230);
 }
+
+h1 {
+    text-align: center;
+}
+
+a {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+p {
+    margin: 2em;
+}
+
+.portrait {
+    max-width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
