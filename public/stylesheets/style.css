@@ -17,9 +17,26 @@ p {
     margin: 2em;
 }
 
+p.welcome {
+    text-align: center;
+}
+
 .portrait {
     max-width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+img.works {
+    max-width: 30vw;
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2em;
 }
